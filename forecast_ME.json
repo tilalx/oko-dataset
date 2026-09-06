@@ -1,10 +1,21 @@
 {
   "zone": "ME",
-  "generated_at": "2026-09-06T08:00:00Z",
+  "generated_at": "2026-09-06T09:00:00Z",
   "model_version": "0.1.0",
   "unit": "gCO2eq/kWh",
   "training_rows": 517,
-  "current": null,
+  "current": {
+    "timestamp": "2026-09-06T07:00:00Z",
+    "power_breakdown_percent": {
+      "coal": 78.54775469531876,
+      "wind": 21.45224530468124
+    },
+    "renewable_percent": 21.45224530468124,
+    "fossil_free_percent": 21.45224530468124,
+    "emissions_breakdown_percent": {
+      "coal": 100.0
+    }
+  },
   "forecast": [
     {
       "timestamp": "2026-09-06T01:00:00Z",
@@ -144,7 +155,7 @@
         "wind": 15.377097857169113,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 63.17
+      "price_eur_per_mwh": 75.96
     },
     {
       "timestamp": "2026-09-06T08:00:00Z",
@@ -650,7 +661,7 @@
       "timestamp": "2026-09-07T09:00:00Z",
       "value": 422,
       "value_lifecycle": 475,
-      "confidence": "medium",
+      "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 74.31781403795192,
@@ -1610,7 +1621,7 @@
       "timestamp": "2026-09-09T09:00:00Z",
       "value": 434,
       "value_lifecycle": 488,
-      "confidence": "low",
+      "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 65.42227242919098,
