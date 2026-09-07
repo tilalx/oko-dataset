@@ -1,6 +1,6 @@
 {
   "zone": "ME",
-  "generated_at": "2026-09-07T02:00:00Z",
+  "generated_at": "2026-09-07T03:00:00Z",
   "model_version": "0.1.0",
   "unit": "gCO2eq/kWh",
   "training_rows": 58138,
@@ -36,7 +36,18 @@
       "n": 11507
     }
   ],
-  "current": null,
+  "current": {
+    "timestamp": "2026-09-07T01:00:00Z",
+    "power_breakdown_percent": {
+      "coal": 78.9917980110449,
+      "wind": 21.00820198895509
+    },
+    "renewable_percent": 21.00820198895509,
+    "fossil_free_percent": 21.00820198895509,
+    "emissions_breakdown_percent": {
+      "coal": 100.0
+    }
+  },
   "forecast": [
     {
       "timestamp": "2026-09-06T19:00:00Z",
@@ -160,23 +171,23 @@
     },
     {
       "timestamp": "2026-09-07T01:00:00Z",
-      "value": 475,
-      "value_lifecycle": 559,
+      "value": 412,
+      "value_lifecycle": 459,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
-        "coal": 94.57563549064692,
+        "coal": 93.72275163246924,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 4.556024545202209,
+        "hydro": 5.129788816175575,
         "nuclear": 0.0,
         "oil": 0.0,
         "solar": 0.0,
         "waste": 0.0,
-        "wind": 0.8683399641508714,
+        "wind": 1.147459551355179,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 123.36
+      "price_eur_per_mwh": 77.91
     },
     {
       "timestamp": "2026-09-07T02:00:00Z",
@@ -682,7 +693,7 @@
       "timestamp": "2026-09-08T03:00:00Z",
       "value": 469,
       "value_lifecycle": 554,
-      "confidence": "medium",
+      "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 95.28315563712724,
