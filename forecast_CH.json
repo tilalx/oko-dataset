@@ -1,326 +1,417 @@
 {
   "zone": "CH",
-  "generated_at": "2026-09-08T17:00:00Z",
+  "generated_at": "2026-09-08T19:00:00Z",
   "model_version": "0.1.0",
   "unit": "gCO2eq/kWh",
-  "training_rows": 58246,
+  "training_rows": 58265,
   "backtest": [
     {
       "day": 1,
       "model_mae": 10.6,
       "naive_mae": 11.4,
-      "n": 11618
+      "n": 11621
     },
     {
       "day": 2,
       "model_mae": 10.6,
       "naive_mae": 11.4,
-      "n": 11594
+      "n": 11597
     },
     {
       "day": 3,
-      "model_mae": 10.6,
+      "model_mae": 10.7,
       "naive_mae": 11.4,
-      "n": 11570
+      "n": 11573
     },
     {
       "day": 4,
-      "model_mae": 10.6,
-      "naive_mae": 11.4,
-      "n": 11546
+      "model_mae": 10.7,
+      "naive_mae": 11.5,
+      "n": 11549
     },
     {
       "day": 5,
       "model_mae": 10.7,
       "naive_mae": 11.5,
-      "n": 11529
+      "n": 11525
     }
   ],
-  "current": null,
+  "current": {
+    "timestamp": "2026-09-08T06:00:00Z",
+    "power_breakdown_percent": {
+      "hydro": 42.30825870196689,
+      "nuclear": 40.70362024870948,
+      "solar": 16.60567808382589,
+      "wind": 0.3824429654977524
+    },
+    "renewable_percent": 59.29637975129053,
+    "fossil_free_percent": 100.0,
+    "emissions_breakdown_percent": {}
+  },
   "forecast": [
     {
       "timestamp": "2026-09-08T13:00:00Z",
-      "value": 95,
-      "value_lifecycle": 128,
+      "value": 32,
+      "value_lifecycle": 75,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 21.190754401079282,
-        "nuclear": 41.965934897495075,
+        "hydro": 21.831942676616425,
+        "nuclear": 41.38478894596493,
         "oil": 0.0,
-        "solar": 36.67767163963134,
+        "solar": 36.580481072716466,
         "waste": 0.0,
-        "wind": 0.16563906179430912,
+        "wind": 0.20278730470217546,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 66.73
+      "price_eur_per_mwh": 65.44
     },
     {
       "timestamp": "2026-09-08T14:00:00Z",
-      "value": 91,
-      "value_lifecycle": 128,
+      "value": 61,
+      "value_lifecycle": 106,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 24.460421963942824,
-        "nuclear": 42.98736271533351,
+        "hydro": 24.839792913190053,
+        "nuclear": 42.90471982370595,
         "oil": 0.0,
-        "solar": 32.38325727573365,
+        "solar": 32.045427182649114,
         "waste": 0.0,
-        "wind": 0.1689580449900156,
+        "wind": 0.21006008045487912,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 66.73
+      "price_eur_per_mwh": 65.44
     },
     {
       "timestamp": "2026-09-08T15:00:00Z",
-      "value": 91,
-      "value_lifecycle": 126,
+      "value": 10,
+      "value_lifecycle": 39,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 28.738366379095627,
-        "nuclear": 43.41170268167879,
+        "hydro": 29.446821738198082,
+        "nuclear": 42.766291431365005,
         "oil": 0.0,
-        "solar": 27.685283431559114,
+        "solar": 27.58378433586308,
         "waste": 0.0,
-        "wind": 0.16464750766646225,
+        "wind": 0.203102494573827,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 66.73
+      "price_eur_per_mwh": 65.44
     },
     {
       "timestamp": "2026-09-08T16:00:00Z",
-      "value": 39,
-      "value_lifecycle": 71,
+      "value": 8,
+      "value_lifecycle": 39,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 35.32639931495089,
-        "nuclear": 41.27058047842723,
+        "hydro": 32.70239756254382,
+        "nuclear": 44.032245112368294,
         "oil": 0.0,
-        "solar": 23.22651660190247,
+        "solar": 23.055357328087517,
         "waste": 0.0,
-        "wind": 0.1765036047194002,
+        "wind": 0.2099999970003669,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 168.95
+      "price_eur_per_mwh": 66.42
     },
     {
       "timestamp": "2026-09-08T17:00:00Z",
-      "value": 33,
-      "value_lifecycle": 65,
+      "value": 7,
+      "value_lifecycle": 38,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 39.80476160463397,
-        "nuclear": 42.867426467529526,
+        "hydro": 35.24133303203772,
+        "nuclear": 46.95817711211622,
         "oil": 0.0,
-        "solar": 17.135319705377544,
+        "solar": 17.585333242499875,
         "waste": 0.0,
-        "wind": 0.19249222245895872,
+        "wind": 0.21515661334619335,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 205.6
+      "price_eur_per_mwh": 68.66
     },
     {
       "timestamp": "2026-09-08T18:00:00Z",
-      "value": 32,
-      "value_lifecycle": 66,
+      "value": 1,
+      "value_lifecycle": 20,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 39.46820467105262,
-        "nuclear": 44.44517372486203,
+        "hydro": 39.07952519742517,
+        "nuclear": 44.47974201222375,
         "oil": 0.0,
-        "solar": 15.883696730518949,
+        "solar": 16.226558334955293,
         "waste": 0.0,
-        "wind": 0.2029248735664052,
+        "wind": 0.21417445539578708,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 211.95
+      "price_eur_per_mwh": 210.89
     },
     {
       "timestamp": "2026-09-08T19:00:00Z",
-      "value": 31,
-      "value_lifecycle": 63,
+      "value": 2,
+      "value_lifecycle": 22,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 52.14127813643121,
-        "nuclear": 45.365403455822445,
+        "hydro": 52.03844400240704,
+        "nuclear": 45.426838347172094,
         "oil": 0.0,
-        "solar": 2.138404882313485,
+        "solar": 2.1841977023809163,
         "waste": 0.0,
-        "wind": 0.35491352543286236,
+        "wind": 0.3505199480399512,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 193.81
+      "price_eur_per_mwh": 192.37
     },
     {
       "timestamp": "2026-09-08T20:00:00Z",
-      "value": 33,
-      "value_lifecycle": 60,
+      "value": 7,
+      "value_lifecycle": 30,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 48.666219073538095,
-        "nuclear": 49.01791028704786,
+        "hydro": 48.7449484448776,
+        "nuclear": 48.91065207067188,
         "oil": 0.0,
-        "solar": 1.8841466968051808,
+        "solar": 1.9309160337223437,
         "waste": 0.0,
-        "wind": 0.4317239426088533,
+        "wind": 0.41348345072816717,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 161.53
+      "price_eur_per_mwh": 161.72
     },
     {
       "timestamp": "2026-09-08T21:00:00Z",
-      "value": 36,
-      "value_lifecycle": 72,
+      "value": 13,
+      "value_lifecycle": 44,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 47.63496687005294,
-        "nuclear": 50.328584826006995,
+        "hydro": 47.660346861178155,
+        "nuclear": 50.05516920729505,
         "oil": 0.0,
-        "solar": 1.3121325408280071,
+        "solar": 1.5598704296096673,
         "waste": 0.0,
-        "wind": 0.7243157631120646,
+        "wind": 0.7246135019171254,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 154.27
+      "price_eur_per_mwh": 155.88
     },
     {
       "timestamp": "2026-09-08T22:00:00Z",
-      "value": 40,
-      "value_lifecycle": 76,
+      "value": 15,
+      "value_lifecycle": 45,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.634517459943076,
-        "nuclear": 56.5293057433021,
+        "hydro": 41.904729195132184,
+        "nuclear": 56.30151573456608,
         "oil": 0.0,
-        "solar": 0.9820548909059049,
+        "solar": 0.9867096361106701,
         "waste": 0.0,
-        "wind": 0.8541219058489193,
+        "wind": 0.8070454341910723,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 166.53
+      "price_eur_per_mwh": 166.56
     },
     {
       "timestamp": "2026-09-08T23:00:00Z",
-      "value": 41,
-      "value_lifecycle": 77,
+      "value": 19,
+      "value_lifecycle": 49,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.30471807841431,
-        "nuclear": 56.863538301029564,
+        "hydro": 41.510521610027865,
+        "nuclear": 56.655784729584326,
         "oil": 0.0,
-        "solar": 0.4572587102755947,
+        "solar": 0.4108206185364727,
         "waste": 0.0,
-        "wind": 1.37448491028052,
+        "wind": 1.4228730418513362,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 154.27
+      "price_eur_per_mwh": 155.88
     },
     {
       "timestamp": "2026-09-09T00:00:00Z",
-      "value": 42,
-      "value_lifecycle": 81,
+      "value": 19,
+      "value_lifecycle": 50,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 40.34123629995498,
-        "nuclear": 57.82849199364279,
+        "hydro": 41.01093571314207,
+        "nuclear": 57.1638552159575,
         "oil": 0.0,
-        "solar": 0.45810509968448776,
+        "solar": 0.41100987422199914,
         "waste": 0.0,
-        "wind": 1.3721666067177454,
+        "wind": 1.4141991966784437,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 146.63
+      "price_eur_per_mwh": 146.48
     },
     {
       "timestamp": "2026-09-09T01:00:00Z",
-      "value": 42,
-      "value_lifecycle": 81,
+      "value": 13,
+      "value_lifecycle": 36,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 38.882311304913046,
-        "nuclear": 59.020743557714816,
+        "hydro": 39.24901488624109,
+        "nuclear": 58.64608209491646,
         "oil": 0.0,
-        "solar": 0.727010707267153,
+        "solar": 0.726631619175572,
         "waste": 0.0,
-        "wind": 1.3699344301049943,
+        "wind": 1.3782713996668694,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 143.63
+      "price_eur_per_mwh": 143.95
     },
     {
       "timestamp": "2026-09-09T02:00:00Z",
-      "value": 42,
-      "value_lifecycle": 81,
+      "value": 13,
+      "value_lifecycle": 36,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 40.3546102170772,
-        "nuclear": 58.038461069424635,
+        "hydro": 41.08345692769249,
+        "nuclear": 57.303544052256825,
         "oil": 0.0,
-        "solar": 0.24698076156979287,
+        "solar": 0.21189200877024225,
         "waste": 0.0,
-        "wind": 1.3599479519283617,
+        "wind": 1.4011070112804407,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 143.63
+      "price_eur_per_mwh": 143.95
     },
     {
       "timestamp": "2026-09-09T03:00:00Z",
-      "value": 46,
+      "value": 8,
+      "value_lifecycle": 28,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 41.75196613688525,
+        "nuclear": 56.86511266037906,
+        "oil": 0.0,
+        "solar": 0.1764024641521821,
+        "waste": 0.0,
+        "wind": 1.2065187385835061,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 155.88
+    },
+    {
+      "timestamp": "2026-09-09T04:00:00Z",
+      "value": 5,
+      "value_lifecycle": 25,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 49.47591614427275,
+        "nuclear": 49.86306780197654,
+        "oil": 0.0,
+        "solar": 0.10761639150416322,
+        "waste": 0.0,
+        "wind": 0.5533996622465501,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 199.53
+    },
+    {
+      "timestamp": "2026-09-09T05:00:00Z",
+      "value": 1,
+      "value_lifecycle": 20,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 49.99342822234243,
+        "nuclear": 49.15201667931129,
+        "oil": 0.0,
+        "solar": 0.43189790729596345,
+        "waste": 0.0,
+        "wind": 0.4226571910503083,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 213.25
+    },
+    {
+      "timestamp": "2026-09-09T06:00:00Z",
+      "value": 9,
+      "value_lifecycle": 30,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 50.50971689007967,
+        "nuclear": 48.56440903122511,
+        "oil": 0.0,
+        "solar": 0.5640085384369822,
+        "waste": 0.0,
+        "wind": 0.36186554025822104,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 212.31
+    },
+    {
+      "timestamp": "2026-09-09T07:00:00Z",
+      "value": 42,
       "value_lifecycle": 80,
       "confidence": "high",
       "power_breakdown_percent": {
@@ -328,118 +419,78 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.455588191542724,
-        "nuclear": 57.188655368077605,
+        "hydro": 48.27579993388761,
+        "nuclear": 47.67955497668683,
         "oil": 0.0,
-        "solar": 0.1882664394675974,
+        "solar": 3.7872299333015653,
         "waste": 0.0,
-        "wind": 1.167490000912073,
+        "wind": 0.25741515612399835,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 154.27
-    },
-    {
-      "timestamp": "2026-09-09T04:00:00Z",
-      "value": 43,
-      "value_lifecycle": 79,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 49.520592177838616,
-        "nuclear": 49.76656655339773,
-        "oil": 0.0,
-        "solar": 0.13205587984315775,
-        "waste": 0.0,
-        "wind": 0.5807853889204824,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 198.13
-    },
-    {
-      "timestamp": "2026-09-09T05:00:00Z",
-      "value": 40,
-      "value_lifecycle": 79,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 50.08378883736914,
-        "nuclear": 49.037890273648934,
-        "oil": 0.0,
-        "solar": 0.46321954622861006,
-        "waste": 0.0,
-        "wind": 0.4151013427533104,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 213.21
-    },
-    {
-      "timestamp": "2026-09-09T06:00:00Z",
-      "value": 40,
-      "value_lifecycle": 77,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 50.96512037262137,
-        "nuclear": 48.09531126719234,
-        "oil": 0.0,
-        "solar": 0.5920657475810859,
-        "waste": 0.0,
-        "wind": 0.3475026126052001,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 212.23
-    },
-    {
-      "timestamp": "2026-09-09T07:00:00Z",
-      "value": 43,
-      "value_lifecycle": 79,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 48.18628509270444,
-        "nuclear": 47.716004084589834,
-        "oil": 0.0,
-        "solar": 3.85596371374484,
-        "waste": 0.0,
-        "wind": 0.2417471089608917,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 153.49
+      "price_eur_per_mwh": 154.46
     },
     {
       "timestamp": "2026-09-09T08:00:00Z",
-      "value": 49,
-      "value_lifecycle": 83,
+      "value": 46,
+      "value_lifecycle": 88,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 46.62869169684768,
-        "nuclear": 47.733541059063455,
+        "hydro": 46.425252158366646,
+        "nuclear": 47.969064429596344,
         "oil": 0.0,
-        "solar": 5.373844235778273,
+        "solar": 5.331184466871486,
         "waste": 0.0,
-        "wind": 0.2639230083105855,
+        "wind": 0.27449894516551926,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 138.55
+      "price_eur_per_mwh": 138.44
     },
     {
       "timestamp": "2026-09-09T09:00:00Z",
+      "value": 48,
+      "value_lifecycle": 94,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 47.94100588195477,
+        "nuclear": 42.75065752739767,
+        "oil": 0.0,
+        "solar": 8.952027573855712,
+        "waste": 0.0,
+        "wind": 0.35630901679185506,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 132.67
+    },
+    {
+      "timestamp": "2026-09-09T10:00:00Z",
+      "value": 49,
+      "value_lifecycle": 99,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 43.859530374240556,
+        "nuclear": 44.39069164954793,
+        "oil": 0.0,
+        "solar": 11.352171550132764,
+        "waste": 0.0,
+        "wind": 0.39760642607874525,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 120.92
+    },
+    {
+      "timestamp": "2026-09-09T11:00:00Z",
       "value": 49,
       "value_lifecycle": 89,
       "confidence": "high",
@@ -448,119 +499,59 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 47.596866095607325,
-        "nuclear": 43.01410477697256,
+        "hydro": 42.03433034019083,
+        "nuclear": 45.546859130038996,
         "oil": 0.0,
-        "solar": 9.033774499228823,
+        "solar": 12.01379154246886,
         "waste": 0.0,
-        "wind": 0.355254628191295,
+        "wind": 0.40501898730133357,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 132.73
-    },
-    {
-      "timestamp": "2026-09-09T10:00:00Z",
-      "value": 51,
-      "value_lifecycle": 95,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 43.16690149295539,
-        "nuclear": 45.538092156438836,
-        "oil": 0.0,
-        "solar": 10.891436662837238,
-        "waste": 0.0,
-        "wind": 0.40356968776853697,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 121.38
-    },
-    {
-      "timestamp": "2026-09-09T11:00:00Z",
-      "value": 49,
-      "value_lifecycle": 85,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 41.708644442028564,
-        "nuclear": 46.35662323509727,
-        "oil": 0.0,
-        "solar": 11.518245290895754,
-        "waste": 0.0,
-        "wind": 0.416487031978403,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 127.48
+      "price_eur_per_mwh": 127.71
     },
     {
       "timestamp": "2026-09-09T12:00:00Z",
       "value": 49,
-      "value_lifecycle": 85,
+      "value_lifecycle": 89,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 43.75754997045643,
-        "nuclear": 44.77692298612246,
+        "hydro": 43.9130912787187,
+        "nuclear": 44.22876390512231,
         "oil": 0.0,
-        "solar": 11.048831980876733,
+        "solar": 11.436824208797164,
         "waste": 0.0,
-        "wind": 0.4166950625443815,
+        "wind": 0.4213206073618218,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 131.63
+      "price_eur_per_mwh": 131.7
     },
     {
       "timestamp": "2026-09-09T13:00:00Z",
-      "value": 49,
-      "value_lifecycle": 85,
+      "value": 50,
+      "value_lifecycle": 89,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.44796827158519,
-        "nuclear": 43.636012436651995,
+        "hydro": 41.80711219498094,
+        "nuclear": 43.06594543457064,
         "oil": 0.0,
-        "solar": 14.515955137731893,
+        "solar": 14.716306537722991,
         "waste": 0.0,
-        "wind": 0.4000641540309162,
+        "wind": 0.41063583272543613,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 131.07
+      "price_eur_per_mwh": 132.53
     },
     {
       "timestamp": "2026-09-09T14:00:00Z",
-      "value": 46,
-      "value_lifecycle": 85,
-      "confidence": "high",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 44.13182212076129,
-        "nuclear": 42.93608623003377,
-        "oil": 0.0,
-        "solar": 12.533138064825156,
-        "waste": 0.0,
-        "wind": 0.3989535843797787,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 132.43
-    },
-    {
-      "timestamp": "2026-09-09T15:00:00Z",
-      "value": 46,
+      "value": 45,
       "value_lifecycle": 87,
       "confidence": "high",
       "power_breakdown_percent": {
@@ -568,39 +559,59 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 49.95929781323444,
-        "nuclear": 38.04986297968417,
+        "hydro": 45.15829092947584,
+        "nuclear": 41.827546948008475,
         "oil": 0.0,
-        "solar": 11.644029832193473,
+        "solar": 12.613670131525483,
         "waste": 0.0,
-        "wind": 0.3468093748879075,
+        "wind": 0.40049199099020766,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 150.28
+      "price_eur_per_mwh": 133.12
+    },
+    {
+      "timestamp": "2026-09-09T15:00:00Z",
+      "value": 45,
+      "value_lifecycle": 86,
+      "confidence": "high",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 50.546722978621624,
+        "nuclear": 37.724937723189015,
+        "oil": 0.0,
+        "solar": 11.38553351511009,
+        "waste": 0.0,
+        "wind": 0.3428057830792838,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 150.1
     },
     {
       "timestamp": "2026-09-09T16:00:00Z",
       "value": 38,
-      "value_lifecycle": 73,
+      "value_lifecycle": 71,
       "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 55.625370049445586,
-        "nuclear": 34.84305892879906,
+        "hydro": 56.47693525990179,
+        "nuclear": 34.02149672722982,
         "oil": 0.0,
-        "solar": 9.27223120603194,
+        "solar": 9.241408603457897,
         "waste": 0.0,
-        "wind": 0.25933981572340464,
+        "wind": 0.2601594094104847,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 165.96
+      "price_eur_per_mwh": 165.42
     },
     {
       "timestamp": "2026-09-09T17:00:00Z",
-      "value": 34,
+      "value": 32,
       "value_lifecycle": 64,
       "confidence": "high",
       "power_breakdown_percent": {
@@ -608,279 +619,99 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 56.61056775641104,
-        "nuclear": 35.35098377016691,
+        "hydro": 57.49590809048545,
+        "nuclear": 34.45283641612987,
         "oil": 0.0,
-        "solar": 7.8081216686045325,
+        "solar": 7.824151530654961,
         "waste": 0.0,
-        "wind": 0.23032680481751458,
+        "wind": 0.2271039627297317,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 244.16
+      "price_eur_per_mwh": 235.85
     },
     {
       "timestamp": "2026-09-09T18:00:00Z",
-      "value": 34,
+      "value": 30,
       "value_lifecycle": 64,
-      "confidence": "medium",
+      "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 57.080068859775885,
-        "nuclear": 35.62949767062832,
+        "hydro": 57.82183098100028,
+        "nuclear": 34.70911819168304,
         "oil": 0.0,
-        "solar": 7.055372687750595,
+        "solar": 7.251080681005053,
         "waste": 0.0,
-        "wind": 0.23506078184520682,
+        "wind": 0.21797014631162404,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 244.16
+      "price_eur_per_mwh": 235.85
     },
     {
       "timestamp": "2026-09-09T19:00:00Z",
-      "value": 34,
-      "value_lifecycle": 62,
-      "confidence": "medium",
+      "value": 31,
+      "value_lifecycle": 65,
+      "confidence": "high",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 60.52274797039654,
-        "nuclear": 37.550368634030185,
+        "hydro": 61.09101231879536,
+        "nuclear": 36.916368016690285,
         "oil": 0.0,
-        "solar": 1.4244586435045805,
+        "solar": 1.457904359107989,
         "waste": 0.0,
-        "wind": 0.5024247520686892,
+        "wind": 0.5347153054063629,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 214.6
+      "price_eur_per_mwh": 212.76
     },
     {
       "timestamp": "2026-09-09T20:00:00Z",
       "value": 35,
-      "value_lifecycle": 65,
+      "value_lifecycle": 67,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 59.486573599477616,
-        "nuclear": 38.66155126095873,
+        "hydro": 59.254114796744155,
+        "nuclear": 38.91991783842673,
         "oil": 0.0,
-        "solar": 0.7858741301513897,
+        "solar": 0.7588558322962017,
         "waste": 0.0,
-        "wind": 1.0660010094122603,
+        "wind": 1.0671115325329195,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 168.95
+      "price_eur_per_mwh": 169.18
     },
     {
       "timestamp": "2026-09-09T21:00:00Z",
-      "value": 39,
-      "value_lifecycle": 73,
+      "value": 36,
+      "value_lifecycle": 75,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 55.859147401094035,
-        "nuclear": 42.26632695987468,
+        "hydro": 55.593565876395886,
+        "nuclear": 42.534095479794416,
         "oil": 0.0,
-        "solar": 0.4814392606143088,
+        "solar": 0.4282018335251485,
         "waste": 0.0,
-        "wind": 1.3930863784169663,
+        "wind": 1.4441368102845533,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 154.27
+      "price_eur_per_mwh": 155.88
     },
     {
       "timestamp": "2026-09-09T22:00:00Z",
-      "value": 41,
-      "value_lifecycle": 82,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 52.914743412354966,
-        "nuclear": 45.34291541737796,
-        "oil": 0.0,
-        "solar": 0.31924389848337065,
-        "waste": 0.0,
-        "wind": 1.4230972717837045,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-09T23:00:00Z",
-      "value": 43,
-      "value_lifecycle": 81,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 52.53705975432527,
-        "nuclear": 45.94706973253613,
-        "oil": 0.0,
-        "solar": 0.2202729743763433,
-        "waste": 0.0,
-        "wind": 1.2955975387622638,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T00:00:00Z",
-      "value": 95,
-      "value_lifecycle": 138,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 27.677674184449142,
-        "nuclear": 70.87912521882579,
-        "oil": 0.0,
-        "solar": 0.19681602920856356,
-        "waste": 0.0,
-        "wind": 1.2463845675164977,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T01:00:00Z",
-      "value": 95,
-      "value_lifecycle": 138,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 27.672943992777395,
-        "nuclear": 70.86701177874492,
-        "oil": 0.0,
-        "solar": 0.19678239280053214,
-        "waste": 0.0,
-        "wind": 1.263261835677146,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T02:00:00Z",
-      "value": 95,
-      "value_lifecycle": 138,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 27.7526146287987,
-        "nuclear": 70.78313766324084,
-        "oil": 0.0,
-        "solar": 0.19734893094682782,
-        "waste": 0.0,
-        "wind": 1.2668987770136406,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T03:00:00Z",
-      "value": 95,
-      "value_lifecycle": 141,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 29.403931963521835,
-        "nuclear": 69.27776632061547,
-        "oil": 0.0,
-        "solar": 0.13369410224426717,
-        "waste": 0.0,
-        "wind": 1.1846076136184227,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T04:00:00Z",
-      "value": 92,
-      "value_lifecycle": 140,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 34.59363974456137,
-        "nuclear": 64.53698347634852,
-        "oil": 0.0,
-        "solar": 0.1375724497741211,
-        "waste": 0.0,
-        "wind": 0.7318043293159968,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.63
-    },
-    {
-      "timestamp": "2026-09-10T05:00:00Z",
-      "value": 89,
-      "value_lifecycle": 138,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 39.64553229778572,
-        "nuclear": 59.848900131450954,
-        "oil": 0.0,
-        "solar": 0.13433730198553714,
-        "waste": 0.0,
-        "wind": 0.37123026877778326,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 69.32
-    },
-    {
-      "timestamp": "2026-09-10T06:00:00Z",
-      "value": 89,
-      "value_lifecycle": 138,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 40.37879634025769,
-        "nuclear": 59.09920285296631,
-        "oil": 0.0,
-        "solar": 0.13642364831402093,
-        "waste": 0.0,
-        "wind": 0.38557715846197604,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 69.32
-    },
-    {
-      "timestamp": "2026-09-10T07:00:00Z",
-      "value": 46,
+      "value": 39,
       "value_lifecycle": 89,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -888,58 +719,318 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 43.392896632001765,
-        "nuclear": 46.51119627733358,
+        "hydro": 52.782066770516515,
+        "nuclear": 45.481561090410544,
         "oil": 0.0,
-        "solar": 9.86817986524889,
+        "solar": 0.29217967357780256,
         "waste": 0.0,
-        "wind": 0.22772722541576393,
+        "wind": 1.4441924654951437,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.32
+      "price_eur_per_mwh": 69.91
     },
     {
-      "timestamp": "2026-09-10T08:00:00Z",
-      "value": 48,
-      "value_lifecycle": 95,
+      "timestamp": "2026-09-09T23:00:00Z",
+      "value": 39,
+      "value_lifecycle": 89,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 36.48048471531876,
-        "nuclear": 48.06704562994298,
+        "hydro": 52.41948532290257,
+        "nuclear": 46.03633691051462,
         "oil": 0.0,
-        "solar": 15.210588688305377,
+        "solar": 0.20059544671423266,
         "waste": 0.0,
-        "wind": 0.24188096643288426,
+        "wind": 1.3435823198685846,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.32
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T00:00:00Z",
+      "value": 94,
+      "value_lifecycle": 142,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 27.659840589499463,
+        "nuclear": 70.92347997450989,
+        "oil": 0.0,
+        "solar": 0.18138588315969922,
+        "waste": 0.0,
+        "wind": 1.2352935528309348,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T01:00:00Z",
+      "value": 94,
+      "value_lifecycle": 142,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 27.655097658671888,
+        "nuclear": 70.91131847421195,
+        "oil": 0.0,
+        "solar": 0.18135478027990706,
+        "waste": 0.0,
+        "wind": 1.2522290868362507,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T02:00:00Z",
+      "value": 94,
+      "value_lifecycle": 142,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 27.734173363773404,
+        "nuclear": 70.82814364581269,
+        "oil": 0.0,
+        "solar": 0.18187333773723963,
+        "waste": 0.0,
+        "wind": 1.255809652676674,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T03:00:00Z",
+      "value": 93,
+      "value_lifecycle": 143,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 30.069556090978892,
+        "nuclear": 68.62887915226383,
+        "oil": 0.0,
+        "solar": 0.10507425024567583,
+        "waste": 0.0,
+        "wind": 1.1964905065116056,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T04:00:00Z",
+      "value": 92,
+      "value_lifecycle": 143,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 35.586522040764535,
+        "nuclear": 63.621195343588056,
+        "oil": 0.0,
+        "solar": 0.1068608362180063,
+        "waste": 0.0,
+        "wind": 0.6854217794294094,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T05:00:00Z",
+      "value": 87,
+      "value_lifecycle": 144,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 40.88611364912121,
+        "nuclear": 58.61396821449959,
+        "oil": 0.0,
+        "solar": 0.10565734355851926,
+        "waste": 0.0,
+        "wind": 0.3942607928206889,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T06:00:00Z",
+      "value": 87,
+      "value_lifecycle": 143,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 41.964855528050265,
+        "nuclear": 57.508417159874455,
+        "oil": 0.0,
+        "solar": 0.10813120550433361,
+        "waste": 0.0,
+        "wind": 0.41859610657094165,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T07:00:00Z",
+      "value": 44,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 43.0939190373176,
+        "nuclear": 46.672542560146766,
+        "oil": 0.0,
+        "solar": 9.999736078974243,
+        "waste": 0.0,
+        "wind": 0.2338023235613894,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
+    },
+    {
+      "timestamp": "2026-09-10T08:00:00Z",
+      "value": 46,
+      "value_lifecycle": 93,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 37.02410120616139,
+        "nuclear": 47.33965408316056,
+        "oil": 0.0,
+        "solar": 15.388415118976157,
+        "waste": 0.0,
+        "wind": 0.24782959170189237,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T09:00:00Z",
       "value": 51,
-      "value_lifecycle": 95,
+      "value_lifecycle": 93,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 31.843837784003856,
-        "nuclear": 47.8872814509111,
+        "hydro": 31.9122388731904,
+        "nuclear": 47.70837161749896,
         "oil": 0.0,
-        "solar": 20.01129275754439,
+        "solar": 20.118419527086626,
         "waste": 0.0,
-        "wind": 0.2575880075406493,
+        "wind": 0.2609699822239985,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.32
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T10:00:00Z",
+      "value": 53,
+      "value_lifecycle": 96,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 26.596019200733107,
+        "nuclear": 44.683373039039715,
+        "oil": 0.0,
+        "solar": 28.472901570748437,
+        "waste": 0.0,
+        "wind": 0.24770618947874326,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 71.27
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00Z",
+      "value": 54,
+      "value_lifecycle": 98,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 25.539888819564133,
+        "nuclear": 42.863726500788005,
+        "oil": 0.0,
+        "solar": 31.342628943333423,
+        "waste": 0.0,
+        "wind": 0.25375573631443127,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 69.69
+    },
+    {
+      "timestamp": "2026-09-10T12:00:00Z",
+      "value": 54,
+      "value_lifecycle": 98,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 26.52647143499736,
+        "nuclear": 44.075246329651975,
+        "oil": 0.0,
+        "solar": 29.121466487841925,
+        "waste": 0.0,
+        "wind": 0.27681574750873644,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 68.66
+    },
+    {
+      "timestamp": "2026-09-10T13:00:00Z",
+      "value": 54,
+      "value_lifecycle": 97,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 22.917525690768215,
+        "nuclear": 43.79897428639989,
+        "oil": 0.0,
+        "solar": 33.077914120247165,
+        "waste": 0.0,
+        "wind": 0.20558590258473605,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 66.42
+    },
+    {
+      "timestamp": "2026-09-10T14:00:00Z",
       "value": 52,
       "value_lifecycle": 97,
       "confidence": "medium",
@@ -948,359 +1039,259 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 26.893881926505163,
-        "nuclear": 45.14359634824803,
+        "hydro": 26.1871855989381,
+        "nuclear": 44.378987918219295,
         "oil": 0.0,
-        "solar": 27.712010163376288,
+        "solar": 29.20183115854824,
         "waste": 0.0,
-        "wind": 0.25051156187051604,
+        "wind": 0.2319953242943657,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 71.36
-    },
-    {
-      "timestamp": "2026-09-10T11:00:00Z",
-      "value": 52,
-      "value_lifecycle": 100,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 25.422105681231645,
-        "nuclear": 42.936455884273116,
-        "oil": 0.0,
-        "solar": 31.381430447817444,
-        "waste": 0.0,
-        "wind": 0.2600079866777996,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 69.29
-    },
-    {
-      "timestamp": "2026-09-10T12:00:00Z",
-      "value": 51,
-      "value_lifecycle": 100,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 26.03408659118025,
-        "nuclear": 44.00181139153884,
-        "oil": 0.0,
-        "solar": 29.689274572452646,
-        "waste": 0.0,
-        "wind": 0.274827444828262,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.77
-    },
-    {
-      "timestamp": "2026-09-10T13:00:00Z",
-      "value": 51,
-      "value_lifecycle": 99,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 23.137625213651834,
-        "nuclear": 43.47729863153442,
-        "oil": 0.0,
-        "solar": 33.18107791265257,
-        "waste": 0.0,
-        "wind": 0.20399824216118592,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 67.53
-    },
-    {
-      "timestamp": "2026-09-10T14:00:00Z",
-      "value": 49,
-      "value_lifecycle": 99,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 26.240054949957038,
-        "nuclear": 43.503241835085255,
-        "oil": 0.0,
-        "solar": 30.02195216469986,
-        "waste": 0.0,
-        "wind": 0.23475105025784435,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 68.77
+      "price_eur_per_mwh": 66.42
     },
     {
       "timestamp": "2026-09-10T15:00:00Z",
-      "value": 50,
-      "value_lifecycle": 100,
+      "value": 52,
+      "value_lifecycle": 97,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 34.36320558911774,
-        "nuclear": 42.42309611831688,
+        "hydro": 34.51905901434609,
+        "nuclear": 42.17200782760272,
         "oil": 0.0,
-        "solar": 22.99869489424113,
+        "solar": 23.098696830960257,
         "waste": 0.0,
-        "wind": 0.21500339832425847,
+        "wind": 0.21023632709092888,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 68.77
+      "price_eur_per_mwh": 68.66
     },
     {
       "timestamp": "2026-09-10T16:00:00Z",
-      "value": 46,
-      "value_lifecycle": 89,
+      "value": 42,
+      "value_lifecycle": 84,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.61552587147801,
-        "nuclear": 41.41128417922411,
+        "hydro": 40.738816507331826,
+        "nuclear": 42.11781877492171,
         "oil": 0.0,
-        "solar": 16.762042539163097,
+        "solar": 16.935068812288648,
         "waste": 0.0,
-        "wind": 0.21114741013479055,
+        "wind": 0.20829590545782387,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.05
+      "price_eur_per_mwh": 70.55
     },
     {
       "timestamp": "2026-09-10T17:00:00Z",
-      "value": 42,
-      "value_lifecycle": 88,
+      "value": 36,
+      "value_lifecycle": 82,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.82613963718423,
-        "nuclear": 43.01616523025645,
+        "hydro": 41.50531117210409,
+        "nuclear": 43.688267799963434,
         "oil": 0.0,
-        "solar": 14.946735710557357,
+        "solar": 14.595614897866042,
         "waste": 0.0,
-        "wind": 0.21095942200196224,
+        "wind": 0.21080613006642634,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 71.36
+      "price_eur_per_mwh": 71.27
     },
     {
       "timestamp": "2026-09-10T18:00:00Z",
-      "value": 42,
-      "value_lifecycle": 87,
+      "value": 34,
+      "value_lifecycle": 83,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 43.463267426551795,
-        "nuclear": 43.71972847108221,
+        "hydro": 43.45518194888067,
+        "nuclear": 43.844048499781294,
         "oil": 0.0,
-        "solar": 12.608474814748794,
+        "solar": 12.50187777619727,
         "waste": 0.0,
-        "wind": 0.20852928761718942,
+        "wind": 0.19889177514076067,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.32
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T19:00:00Z",
-      "value": 41,
-      "value_lifecycle": 90,
+      "value": 35,
+      "value_lifecycle": 84,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 51.25926701268545,
-        "nuclear": 48.330991424814705,
+        "hydro": 51.23004393685534,
+        "nuclear": 48.37957163100008,
         "oil": 0.0,
-        "solar": 0.13087058947989957,
+        "solar": 0.10132848398140963,
         "waste": 0.0,
-        "wind": 0.27887097301995034,
+        "wind": 0.28905594816316627,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.32
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T20:00:00Z",
-      "value": 43,
-      "value_lifecycle": 90,
+      "value": 42,
+      "value_lifecycle": 81,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 50.503904361331415,
-        "nuclear": 49.137104529307386,
+        "hydro": 50.68054691632053,
+        "nuclear": 48.99643306849695,
         "oil": 0.0,
-        "solar": 0.13122612101716027,
+        "solar": 0.10147696559504475,
         "waste": 0.0,
-        "wind": 0.22776498834404427,
+        "wind": 0.2215430495874785,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.17
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T21:00:00Z",
-      "value": 66,
-      "value_lifecycle": 104,
+      "value": 67,
+      "value_lifecycle": 101,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 48.58822294568786,
-        "nuclear": 51.06861193834249,
+        "hydro": 48.79099548441661,
+        "nuclear": 50.88810237787623,
         "oil": 0.0,
-        "solar": 0.12985253245392733,
+        "solar": 0.10173741009280957,
         "waste": 0.0,
-        "wind": 0.21331258351572294,
+        "wind": 0.21916472761434838,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 69.17
+      "price_eur_per_mwh": 69.91
     },
     {
       "timestamp": "2026-09-10T22:00:00Z",
-      "value": 71,
-      "value_lifecycle": 111,
+      "value": 74,
+      "value_lifecycle": 110,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 41.840745375437436,
-        "nuclear": 57.818345237085865,
+        "hydro": 41.83301534610139,
+        "nuclear": 57.85102677528479,
         "oil": 0.0,
-        "solar": 0.12996416540589265,
+        "solar": 0.10070545992040758,
         "waste": 0.0,
-        "wind": 0.21094522207080493,
+        "wind": 0.21525241869341127,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 140.09
+      "price_eur_per_mwh": 139.28
     },
     {
       "timestamp": "2026-09-10T23:00:00Z",
-      "value": 73,
-      "value_lifecycle": 111,
+      "value": 75,
+      "value_lifecycle": 110,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 39.58808348513172,
-        "nuclear": 59.9807967759467,
+        "hydro": 39.84749293993664,
+        "nuclear": 59.74801197613382,
         "oil": 0.0,
-        "solar": 0.12983453649563834,
+        "solar": 0.10215193311741531,
         "waste": 0.0,
-        "wind": 0.30128520242594875,
+        "wind": 0.3023431508121175,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 139.11
+      "price_eur_per_mwh": 138.46
     },
     {
       "timestamp": "2026-09-11T00:00:00Z",
-      "value": 74,
-      "value_lifecycle": 109,
+      "value": 73,
+      "value_lifecycle": 105,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 36.90556195809724,
-        "nuclear": 62.62104844850223,
+        "hydro": 37.640007944831204,
+        "nuclear": 61.9125382872826,
         "oil": 0.0,
-        "solar": 0.1314118710772144,
+        "solar": 0.10221787570965968,
         "waste": 0.0,
-        "wind": 0.34197772232333146,
+        "wind": 0.3452358921765345,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 136.2
+      "price_eur_per_mwh": 136.11
     },
     {
       "timestamp": "2026-09-11T01:00:00Z",
       "value": 72,
-      "value_lifecycle": 112,
+      "value_lifecycle": 111,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 36.30362229911349,
-        "nuclear": 63.138392375509845,
+        "hydro": 36.14821539424599,
+        "nuclear": 63.319177844710126,
         "oil": 0.0,
-        "solar": 0.132180687315222,
+        "solar": 0.10384627482049662,
         "waste": 0.0,
-        "wind": 0.4258046380614531,
+        "wind": 0.428760486223394,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 131.5
+      "price_eur_per_mwh": 130.68
     },
     {
       "timestamp": "2026-09-11T02:00:00Z",
-      "value": 51,
-      "value_lifecycle": 99,
+      "value": 52,
+      "value_lifecycle": 98,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 35.515712876713735,
-        "nuclear": 63.96526190400726,
+        "hydro": 35.469523453259455,
+        "nuclear": 64.03585660988344,
         "oil": 0.0,
-        "solar": 0.13300514678081748,
+        "solar": 0.10362397495575963,
         "waste": 0.0,
-        "wind": 0.38602007249819387,
+        "wind": 0.39099596190133823,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 132.86
+      "price_eur_per_mwh": 132.38
     },
     {
       "timestamp": "2026-09-11T03:00:00Z",
-      "value": 49,
-      "value_lifecycle": 96,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 36.5505973708129,
-        "nuclear": 62.930984552970756,
-        "oil": 0.0,
-        "solar": 0.13204899637835363,
-        "waste": 0.0,
-        "wind": 0.386369079837987,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.2
-    },
-    {
-      "timestamp": "2026-09-11T04:00:00Z",
-      "value": 45,
+      "value": 48,
       "value_lifecycle": 94,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -1308,55 +1299,75 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 42.05125771330991,
-        "nuclear": 57.399164396449194,
+        "hydro": 36.801846730491306,
+        "nuclear": 62.69471006828993,
         "oil": 0.0,
-        "solar": 0.13322677505203337,
+        "solar": 0.10352554424798292,
         "waste": 0.0,
-        "wind": 0.4163511151888676,
+        "wind": 0.3999176569707759,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 139.94
+      "price_eur_per_mwh": 136.11
+    },
+    {
+      "timestamp": "2026-09-11T04:00:00Z",
+      "value": 44,
+      "value_lifecycle": 93,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 42.025285478595976,
+        "nuclear": 57.44800542757693,
+        "oil": 0.0,
+        "solar": 0.10467850352182423,
+        "waste": 0.0,
+        "wind": 0.4220305903052615,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 139.28
     },
     {
       "timestamp": "2026-09-11T05:00:00Z",
-      "value": 46,
-      "value_lifecycle": 90,
+      "value": 45,
+      "value_lifecycle": 88,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 48.15365760095724,
-        "nuclear": 50.869997531699575,
+        "hydro": 47.75883569534959,
+        "nuclear": 51.292417950005444,
         "oil": 0.0,
-        "solar": 0.5556957103822596,
+        "solar": 0.520487189923097,
         "waste": 0.0,
-        "wind": 0.4206491569609274,
+        "wind": 0.42825916472187187,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 157.4
+      "price_eur_per_mwh": 155.81
     },
     {
       "timestamp": "2026-09-11T06:00:00Z",
-      "value": 44,
-      "value_lifecycle": 92,
+      "value": 46,
+      "value_lifecycle": 87,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 48.81005111990023,
-        "nuclear": 50.22931687237232,
+        "hydro": 48.53285386213939,
+        "nuclear": 50.54108784025896,
         "oil": 0.0,
-        "solar": 0.6035679853326946,
+        "solar": 0.5718564203446205,
         "waste": 0.0,
-        "wind": 0.35706402239474994,
+        "wind": 0.3542018772570172,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 152.47
+      "price_eur_per_mwh": 152.19
     },
     {
       "timestamp": "2026-09-11T07:00:00Z",
@@ -1368,279 +1379,59 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 40.48206690021881,
-        "nuclear": 49.74575247309051,
+        "hydro": 40.52143449755758,
+        "nuclear": 49.650119172718604,
         "oil": 0.0,
-        "solar": 9.547400588503764,
+        "solar": 9.600626169323897,
         "waste": 0.0,
-        "wind": 0.22478003818691997,
+        "wind": 0.22782016039993305,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 132.23
+      "price_eur_per_mwh": 132.25
     },
     {
       "timestamp": "2026-09-11T08:00:00Z",
       "value": 49,
-      "value_lifecycle": 102,
+      "value_lifecycle": 99,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 34.57611999325796,
-        "nuclear": 50.58327712869759,
+        "hydro": 33.95410678091128,
+        "nuclear": 50.69988292071679,
         "oil": 0.0,
-        "solar": 14.596136443276558,
+        "solar": 15.099582661803472,
         "waste": 0.0,
-        "wind": 0.24446643476789473,
+        "wind": 0.24642763656846983,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 122.57
+      "price_eur_per_mwh": 123.24
     },
     {
       "timestamp": "2026-09-11T09:00:00Z",
       "value": 49,
-      "value_lifecycle": 95,
+      "value_lifecycle": 92,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 31.378125055254408,
-        "nuclear": 48.524279305199705,
+        "hydro": 31.577929031832042,
+        "nuclear": 48.22523178507766,
         "oil": 0.0,
-        "solar": 19.835380163248164,
+        "solar": 19.937754506939672,
         "waste": 0.0,
-        "wind": 0.26221547629771885,
+        "wind": 0.25908467615064296,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 108.54
+      "price_eur_per_mwh": 108.49
     },
     {
       "timestamp": "2026-09-11T10:00:00Z",
       "value": 51,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 26.37167635110223,
-        "nuclear": 46.78132793077446,
-        "oil": 0.0,
-        "solar": 26.5662894714868,
-        "waste": 0.0,
-        "wind": 0.2807062466365002,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 83.43
-    },
-    {
-      "timestamp": "2026-09-11T11:00:00Z",
-      "value": 51,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 24.211450085667686,
-        "nuclear": 43.81098285727745,
-        "oil": 0.0,
-        "solar": 31.712969201890093,
-        "waste": 0.0,
-        "wind": 0.26459785516477125,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 85.65
-    },
-    {
-      "timestamp": "2026-09-11T12:00:00Z",
-      "value": 51,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 24.366062748481955,
-        "nuclear": 44.8020807263675,
-        "oil": 0.0,
-        "solar": 30.557571586412053,
-        "waste": 0.0,
-        "wind": 0.27428493873848786,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 88.47
-    },
-    {
-      "timestamp": "2026-09-11T13:00:00Z",
-      "value": 50,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 21.051798643887196,
-        "nuclear": 42.5104309429735,
-        "oil": 0.0,
-        "solar": 36.24620083892272,
-        "waste": 0.0,
-        "wind": 0.19156957421658596,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 91.31
-    },
-    {
-      "timestamp": "2026-09-11T14:00:00Z",
-      "value": 51,
-      "value_lifecycle": 98,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 23.942193962918275,
-        "nuclear": 43.59407097418491,
-        "oil": 0.0,
-        "solar": 32.26509464779705,
-        "waste": 0.0,
-        "wind": 0.1986404150997754,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 129.64
-    },
-    {
-      "timestamp": "2026-09-11T15:00:00Z",
-      "value": 50,
-      "value_lifecycle": 91,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 31.24038997411975,
-        "nuclear": 43.078583081663105,
-        "oil": 0.0,
-        "solar": 25.49000237925659,
-        "waste": 0.0,
-        "wind": 0.19102456496055167,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 129.64
-    },
-    {
-      "timestamp": "2026-09-11T16:00:00Z",
-      "value": 45,
-      "value_lifecycle": 85,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 36.599098461034274,
-        "nuclear": 43.10991087801381,
-        "oil": 0.0,
-        "solar": 20.09992720074226,
-        "waste": 0.0,
-        "wind": 0.1910634602096611,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 140.52
-    },
-    {
-      "timestamp": "2026-09-11T17:00:00Z",
-      "value": 43,
-      "value_lifecycle": 86,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 39.42193559016731,
-        "nuclear": 43.370672351053976,
-        "oil": 0.0,
-        "solar": 16.99956883690386,
-        "waste": 0.0,
-        "wind": 0.2078232218748555,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 153.07
-    },
-    {
-      "timestamp": "2026-09-11T18:00:00Z",
-      "value": 60,
-      "value_lifecycle": 91,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 41.277208528004365,
-        "nuclear": 43.416450805229644,
-        "oil": 0.0,
-        "solar": 15.090071124894983,
-        "waste": 0.0,
-        "wind": 0.21626954187101494,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 153.07
-    },
-    {
-      "timestamp": "2026-09-11T19:00:00Z",
-      "value": 58,
-      "value_lifecycle": 88,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 47.78391606541022,
-        "nuclear": 51.21629552205992,
-        "oil": 0.0,
-        "solar": 0.3991977470076783,
-        "waste": 0.0,
-        "wind": 0.6005906655221817,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 152.85
-    },
-    {
-      "timestamp": "2026-09-11T20:00:00Z",
-      "value": 60,
-      "value_lifecycle": 91,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 43.76090205474705,
-        "nuclear": 54.854343035843414,
-        "oil": 0.0,
-        "solar": 0.30441676725630995,
-        "waste": 0.0,
-        "wind": 1.0803381421532252,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 139.45
-    },
-    {
-      "timestamp": "2026-09-11T21:00:00Z",
-      "value": 70,
       "value_lifecycle": 93,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -1648,158 +1439,258 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 38.4406925855607,
-        "nuclear": 60.17733540164658,
+        "hydro": 26.35628969392391,
+        "nuclear": 47.38517251700185,
         "oil": 0.0,
-        "solar": 0.1905614597699883,
+        "solar": 25.969142916589522,
         "waste": 0.0,
-        "wind": 1.191410553022731,
+        "wind": 0.28939487248472184,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 138.62
+      "price_eur_per_mwh": 84.45
+    },
+    {
+      "timestamp": "2026-09-11T11:00:00Z",
+      "value": 52,
+      "value_lifecycle": 94,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 24.063232785992664,
+        "nuclear": 44.585670344058585,
+        "oil": 0.0,
+        "solar": 31.084614763963934,
+        "waste": 0.0,
+        "wind": 0.2664821059848316,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 87.1
+    },
+    {
+      "timestamp": "2026-09-11T12:00:00Z",
+      "value": 52,
+      "value_lifecycle": 94,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 24.062181873591623,
+        "nuclear": 45.5446534790311,
+        "oil": 0.0,
+        "solar": 30.12074698770863,
+        "waste": 0.0,
+        "wind": 0.27241765966865,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 89.06
+    },
+    {
+      "timestamp": "2026-09-11T13:00:00Z",
+      "value": 51,
+      "value_lifecycle": 92,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 21.028130572310733,
+        "nuclear": 42.65577161446448,
+        "oil": 0.0,
+        "solar": 36.12052482620276,
+        "waste": 0.0,
+        "wind": 0.1955729870220376,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 91.17
+    },
+    {
+      "timestamp": "2026-09-11T14:00:00Z",
+      "value": 49,
+      "value_lifecycle": 93,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 23.766394533976428,
+        "nuclear": 43.36076035664243,
+        "oil": 0.0,
+        "solar": 32.67463740866714,
+        "waste": 0.0,
+        "wind": 0.19820770071400629,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 131.58
+    },
+    {
+      "timestamp": "2026-09-11T15:00:00Z",
+      "value": 51,
+      "value_lifecycle": 89,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 31.210979342491946,
+        "nuclear": 43.05967254632912,
+        "oil": 0.0,
+        "solar": 25.537833621613334,
+        "waste": 0.0,
+        "wind": 0.19151448956559128,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 131.58
+    },
+    {
+      "timestamp": "2026-09-11T16:00:00Z",
+      "value": 44,
+      "value_lifecycle": 83,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 36.263548754954314,
+        "nuclear": 43.064904886575626,
+        "oil": 0.0,
+        "solar": 20.47901719187623,
+        "waste": 0.0,
+        "wind": 0.19252916659383928,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 140.05
+    },
+    {
+      "timestamp": "2026-09-11T17:00:00Z",
+      "value": 40,
+      "value_lifecycle": 85,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 38.843152082169105,
+        "nuclear": 43.8776129920569,
+        "oil": 0.0,
+        "solar": 17.078085541451063,
+        "waste": 0.0,
+        "wind": 0.20114938432293822,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 153.5
+    },
+    {
+      "timestamp": "2026-09-11T18:00:00Z",
+      "value": 50,
+      "value_lifecycle": 87,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 40.46134046293287,
+        "nuclear": 44.44295115243374,
+        "oil": 0.0,
+        "solar": 14.872634758672282,
+        "waste": 0.0,
+        "wind": 0.22307362596111838,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 153.5
+    },
+    {
+      "timestamp": "2026-09-11T19:00:00Z",
+      "value": 50,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 47.809540099794795,
+        "nuclear": 51.179330720387526,
+        "oil": 0.0,
+        "solar": 0.3671335773362192,
+        "waste": 0.0,
+        "wind": 0.6439956024814667,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 152.49
+    },
+    {
+      "timestamp": "2026-09-11T20:00:00Z",
+      "value": 51,
+      "value_lifecycle": 85,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 44.09286268586107,
+        "nuclear": 54.527507853188695,
+        "oil": 0.0,
+        "solar": 0.28148950457433725,
+        "waste": 0.0,
+        "wind": 1.0981399563758913,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 139.28
+    },
+    {
+      "timestamp": "2026-09-11T21:00:00Z",
+      "value": 57,
+      "value_lifecycle": 91,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 38.4580626010632,
+        "nuclear": 60.148819968185094,
+        "oil": 0.0,
+        "solar": 0.17946249203460277,
+        "waste": 0.0,
+        "wind": 1.213654938717113,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 138.46
     },
     {
       "timestamp": "2026-09-11T22:00:00Z",
-      "value": 74,
-      "value_lifecycle": 106,
+      "value": 67,
+      "value_lifecycle": 104,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 36.9169198707841,
-        "nuclear": 61.73360967025119,
+        "hydro": 36.915979962930344,
+        "nuclear": 61.73941918834806,
         "oil": 0.0,
-        "solar": 0.12822944159194138,
+        "solar": 0.10790955343296714,
         "waste": 0.0,
-        "wind": 1.22124101737276,
+        "wind": 1.2366912952886369,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 139.45
+      "price_eur_per_mwh": 139.28
     },
     {
       "timestamp": "2026-09-11T23:00:00Z",
-      "value": 74,
-      "value_lifecycle": 103,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 34.09225193430981,
-        "nuclear": 64.73293502342987,
-        "oil": 0.0,
-        "solar": 0.13195230888741546,
-        "waste": 0.0,
-        "wind": 1.0428607333729052,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 138.62
-    },
-    {
-      "timestamp": "2026-09-12T00:00:00Z",
-      "value": 73,
-      "value_lifecycle": 115,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 31.35083145025725,
-        "nuclear": 67.48928105869436,
-        "oil": 0.0,
-        "solar": 0.13041476722985595,
-        "waste": 0.0,
-        "wind": 1.029472723818543,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 138.62
-    },
-    {
-      "timestamp": "2026-09-12T01:00:00Z",
-      "value": 73,
-      "value_lifecycle": 114,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 28.935329691880646,
-        "nuclear": 69.99653211784378,
-        "oil": 0.0,
-        "solar": 0.1305962630038252,
-        "waste": 0.0,
-        "wind": 0.9375419272717468,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.2
-    },
-    {
-      "timestamp": "2026-09-12T02:00:00Z",
-      "value": 73,
-      "value_lifecycle": 114,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 25.426097286134986,
-        "nuclear": 73.60130607208924,
-        "oil": 0.0,
-        "solar": 0.13508803345837905,
-        "waste": 0.0,
-        "wind": 0.8375086083173955,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.2
-    },
-    {
-      "timestamp": "2026-09-12T03:00:00Z",
-      "value": 70,
-      "value_lifecycle": 102,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 28.661812044451118,
-        "nuclear": 70.42115979738304,
-        "oil": 0.0,
-        "solar": 0.12993708695625414,
-        "waste": 0.0,
-        "wind": 0.7870910712095751,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.2
-    },
-    {
-      "timestamp": "2026-09-12T04:00:00Z",
-      "value": 52,
-      "value_lifecycle": 97,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 32.7007466560555,
-        "nuclear": 66.57704875175953,
-        "oil": 0.0,
-        "solar": 0.13068827165224906,
-        "waste": 0.0,
-        "wind": 0.5915163205327053,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.61
-    },
-    {
-      "timestamp": "2026-09-12T05:00:00Z",
       "value": 72,
       "value_lifecycle": 105,
       "confidence": "medium",
@@ -1808,219 +1699,99 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 35.192888103294315,
-        "nuclear": 63.95364813905442,
+        "hydro": 34.18879560233103,
+        "nuclear": 64.65208393003446,
         "oil": 0.0,
-        "solar": 0.47580225468661297,
+        "solar": 0.10271083466469275,
         "waste": 0.0,
-        "wind": 0.3776615029646411,
+        "wind": 1.0564096329698054,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 139.11
+      "price_eur_per_mwh": 138.46
     },
     {
-      "timestamp": "2026-09-12T06:00:00Z",
-      "value": 72,
-      "value_lifecycle": 114,
+      "timestamp": "2026-09-12T00:00:00Z",
+      "value": 69,
+      "value_lifecycle": 113,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 38.48150015613831,
-        "nuclear": 60.488862959285505,
+        "hydro": 31.158511271423254,
+        "nuclear": 67.68667086206419,
         "oil": 0.0,
-        "solar": 0.6439386545091235,
+        "solar": 0.10331050705858758,
         "waste": 0.0,
-        "wind": 0.3856982300670531,
+        "wind": 1.0515073594539772,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 133.62
+      "price_eur_per_mwh": 138.46
     },
     {
-      "timestamp": "2026-09-12T07:00:00Z",
-      "value": 51,
-      "value_lifecycle": 98,
+      "timestamp": "2026-09-12T01:00:00Z",
+      "value": 71,
+      "value_lifecycle": 110,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 34.9587684976102,
-        "nuclear": 55.05963169048254,
+        "hydro": 29.72107188978737,
+        "nuclear": 69.23401718016488,
         "oil": 0.0,
-        "solar": 9.764621121673084,
+        "solar": 0.10244129941642503,
         "waste": 0.0,
-        "wind": 0.21697869023416633,
+        "wind": 0.9424696306313105,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 49.38
+      "price_eur_per_mwh": 136.11
     },
     {
-      "timestamp": "2026-09-12T08:00:00Z",
-      "value": 51,
-      "value_lifecycle": 100,
+      "timestamp": "2026-09-12T02:00:00Z",
+      "value": 71,
+      "value_lifecycle": 110,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 27.196553336708686,
-        "nuclear": 55.95247000664373,
+        "hydro": 26.738803975772235,
+        "nuclear": 72.3212738958223,
         "oil": 0.0,
-        "solar": 16.609401994056434,
+        "solar": 0.10495736286179559,
         "waste": 0.0,
-        "wind": 0.24157466259114949,
+        "wind": 0.8349647655436805,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 129.33
+      "price_eur_per_mwh": 136.11
     },
     {
-      "timestamp": "2026-09-12T09:00:00Z",
-      "value": 52,
-      "value_lifecycle": 96,
+      "timestamp": "2026-09-12T03:00:00Z",
+      "value": 71,
+      "value_lifecycle": 102,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 25.33545737370137,
-        "nuclear": 52.99786929075359,
+        "hydro": 29.743138843638572,
+        "nuclear": 69.36831083236667,
         "oil": 0.0,
-        "solar": 21.385344095435823,
+        "solar": 0.10048160196007344,
         "waste": 0.0,
-        "wind": 0.28132924010920285,
+        "wind": 0.7880687220346798,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 121.72
+      "price_eur_per_mwh": 136.11
     },
     {
-      "timestamp": "2026-09-12T10:00:00Z",
-      "value": 52,
-      "value_lifecycle": 94,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 21.617017666370476,
-        "nuclear": 50.516658999279635,
-        "oil": 0.0,
-        "solar": 27.643726558810403,
-        "waste": 0.0,
-        "wind": 0.2225967755394886,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 97.32
-    },
-    {
-      "timestamp": "2026-09-12T11:00:00Z",
-      "value": 52,
-      "value_lifecycle": 94,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 20.61329797138397,
-        "nuclear": 48.91932988597613,
-        "oil": 0.0,
-        "solar": 30.217762988732677,
-        "waste": 0.0,
-        "wind": 0.2496091539072213,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 88.47
-    },
-    {
-      "timestamp": "2026-09-12T12:00:00Z",
-      "value": 52,
-      "value_lifecycle": 96,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 19.33889086876065,
-        "nuclear": 48.81548909472576,
-        "oil": 0.0,
-        "solar": 31.62547603034411,
-        "waste": 0.0,
-        "wind": 0.22014400616946378,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 92.19
-    },
-    {
-      "timestamp": "2026-09-12T13:00:00Z",
-      "value": 51,
-      "value_lifecycle": 96,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 18.55571827100294,
-        "nuclear": 44.56898859109137,
-        "oil": 0.0,
-        "solar": 36.684978218844286,
-        "waste": 0.0,
-        "wind": 0.19031491906140208,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 90.16
-    },
-    {
-      "timestamp": "2026-09-12T14:00:00Z",
-      "value": 50,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 21.983006016119024,
-        "nuclear": 45.194209159221984,
-        "oil": 0.0,
-        "solar": 32.626784396569036,
-        "waste": 0.0,
-        "wind": 0.19600042808995513,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 114.04
-    },
-    {
-      "timestamp": "2026-09-12T15:00:00Z",
-      "value": 50,
-      "value_lifecycle": 93,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 27.91535970401296,
-        "nuclear": 44.500659356137156,
-        "oil": 0.0,
-        "solar": 27.380218167679786,
-        "waste": 0.0,
-        "wind": 0.20376277217009234,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 137.38
-    },
-    {
-      "timestamp": "2026-09-12T16:00:00Z",
-      "value": 46,
+      "timestamp": "2026-09-12T04:00:00Z",
+      "value": 56,
       "value_lifecycle": 86,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -2028,59 +1799,319 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 32.403553263945184,
-        "nuclear": 45.92966698635877,
+        "hydro": 33.682437915714424,
+        "nuclear": 65.669670669295,
         "oil": 0.0,
-        "solar": 21.465439758072073,
+        "solar": 0.10108257112001662,
         "waste": 0.0,
-        "wind": 0.20133999162396252,
+        "wind": 0.5468088438705662,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 137.38
+      "price_eur_per_mwh": 136.11
+    },
+    {
+      "timestamp": "2026-09-12T05:00:00Z",
+      "value": 74,
+      "value_lifecycle": 101,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 35.362965883838896,
+        "nuclear": 63.80684996563775,
+        "oil": 0.0,
+        "solar": 0.4467203058357112,
+        "waste": 0.0,
+        "wind": 0.3834638446876451,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 138.46
+    },
+    {
+      "timestamp": "2026-09-12T06:00:00Z",
+      "value": 75,
+      "value_lifecycle": 106,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 38.16595258362934,
+        "nuclear": 60.87998887195846,
+        "oil": 0.0,
+        "solar": 0.572141097405986,
+        "waste": 0.0,
+        "wind": 0.38191744700621066,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 132.01
+    },
+    {
+      "timestamp": "2026-09-12T07:00:00Z",
+      "value": 58,
+      "value_lifecycle": 85,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 33.437096692580546,
+        "nuclear": 56.33134060346284,
+        "oil": 0.0,
+        "solar": 10.008777938786771,
+        "waste": 0.0,
+        "wind": 0.22278476516984186,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 47.69
+    },
+    {
+      "timestamp": "2026-09-12T08:00:00Z",
+      "value": 57,
+      "value_lifecycle": 87,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 27.070993784930533,
+        "nuclear": 56.18733746645762,
+        "oil": 0.0,
+        "solar": 16.508350081096154,
+        "waste": 0.0,
+        "wind": 0.2333186675156894,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 129.8
+    },
+    {
+      "timestamp": "2026-09-12T09:00:00Z",
+      "value": 55,
+      "value_lifecycle": 88,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 25.61177274374149,
+        "nuclear": 53.26454864604068,
+        "oil": 0.0,
+        "solar": 20.858954983663455,
+        "waste": 0.0,
+        "wind": 0.2647236265543624,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 120.57
+    },
+    {
+      "timestamp": "2026-09-12T10:00:00Z",
+      "value": 56,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 21.738040691071422,
+        "nuclear": 50.5295110872776,
+        "oil": 0.0,
+        "solar": 27.514771740880924,
+        "waste": 0.0,
+        "wind": 0.2176764807700463,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 97.12
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00Z",
+      "value": 56,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 20.279310862199214,
+        "nuclear": 49.1781939417613,
+        "oil": 0.0,
+        "solar": 30.304879417230428,
+        "waste": 0.0,
+        "wind": 0.23761577880905232,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 90.08
+    },
+    {
+      "timestamp": "2026-09-12T12:00:00Z",
+      "value": 56,
+      "value_lifecycle": 87,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 20.236979926348667,
+        "nuclear": 48.21048704698426,
+        "oil": 0.0,
+        "solar": 31.33768418161493,
+        "waste": 0.0,
+        "wind": 0.2148488450521426,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 93.0
+    },
+    {
+      "timestamp": "2026-09-12T13:00:00Z",
+      "value": 54,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 18.773753812003317,
+        "nuclear": 45.04470353052537,
+        "oil": 0.0,
+        "solar": 35.994721053357694,
+        "waste": 0.0,
+        "wind": 0.1868216041136274,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 91.17
+    },
+    {
+      "timestamp": "2026-09-12T14:00:00Z",
+      "value": 53,
+      "value_lifecycle": 84,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 21.38492915420411,
+        "nuclear": 45.283891704247495,
+        "oil": 0.0,
+        "solar": 33.13694113121041,
+        "waste": 0.0,
+        "wind": 0.19423801033798094,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 115.28
+    },
+    {
+      "timestamp": "2026-09-12T15:00:00Z",
+      "value": 53,
+      "value_lifecycle": 86,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 28.193959058266984,
+        "nuclear": 44.20906928346155,
+        "oil": 0.0,
+        "solar": 27.39877449879338,
+        "waste": 0.0,
+        "wind": 0.19819715947808053,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 137.05
+    },
+    {
+      "timestamp": "2026-09-12T16:00:00Z",
+      "value": 47,
+      "value_lifecycle": 79,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 32.483709660866566,
+        "nuclear": 45.29585958708476,
+        "oil": 0.0,
+        "solar": 22.02868579867497,
+        "waste": 0.0,
+        "wind": 0.1917449533737012,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 137.05
     },
     {
       "timestamp": "2026-09-12T17:00:00Z",
       "value": 44,
-      "value_lifecycle": 84,
+      "value_lifecycle": 78,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 38.494195096420924,
-        "nuclear": 44.79918376751862,
+        "hydro": 37.820833985516366,
+        "nuclear": 44.93779546762097,
         "oil": 0.0,
-        "solar": 16.497629552112816,
+        "solar": 17.04674557974188,
         "waste": 0.0,
-        "wind": 0.20899158394763695,
+        "wind": 0.19462496712078756,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 152.85
+      "price_eur_per_mwh": 151.88
     },
     {
       "timestamp": "2026-09-12T18:00:00Z",
-      "value": 42,
-      "value_lifecycle": 84,
+      "value": 40,
+      "value_lifecycle": 78,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 38.18976086648629,
-        "nuclear": 45.04754467340192,
+        "hydro": 37.32854712621211,
+        "nuclear": 46.36222919890913,
         "oil": 0.0,
-        "solar": 16.55518278764196,
+        "solar": 16.105576822479385,
         "waste": 0.0,
-        "wind": 0.20751167246981775,
+        "wind": 0.20364685239937957,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 152.85
+      "price_eur_per_mwh": 151.88
     },
     {
       "timestamp": "2026-09-12T19:00:00Z",
-      "value": 63,
+      "value": 59,
+      "value_lifecycle": 102,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 44.75947401778609,
+        "nuclear": 54.594091567362646,
+        "oil": 0.0,
+        "solar": 0.10291242173099537,
+        "waste": 0.0,
+        "wind": 0.5435219931202662,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 153.33
+    },
+    {
+      "timestamp": "2026-09-12T20:00:00Z",
+      "value": 61,
       "value_lifecycle": 100,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -2088,38 +2119,198 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 44.99951974016876,
-        "nuclear": 54.33818228881034,
+        "hydro": 39.93960703417323,
+        "nuclear": 59.123845907056904,
         "oil": 0.0,
-        "solar": 0.13197918694214256,
+        "solar": 0.10295857279376701,
         "waste": 0.0,
-        "wind": 0.5303187840787709,
+        "wind": 0.833588485976099,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 152.85
+      "price_eur_per_mwh": 154.61
     },
     {
-      "timestamp": "2026-09-12T20:00:00Z",
-      "value": 63,
-      "value_lifecycle": 103,
+      "timestamp": "2026-09-12T21:00:00Z",
+      "value": 67,
+      "value_lifecycle": 104,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 40.127079193371785,
-        "nuclear": 58.93358196456624,
+        "hydro": 37.40938597051158,
+        "nuclear": 61.45973874391929,
         "oil": 0.0,
-        "solar": 0.13183404206688012,
+        "solar": 0.10345445647617924,
         "waste": 0.0,
-        "wind": 0.8075047999951002,
+        "wind": 1.0274208290929538,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 153.47
+      "price_eur_per_mwh": 143.95
     },
     {
-      "timestamp": "2026-09-12T21:00:00Z",
+      "timestamp": "2026-09-12T22:00:00Z",
+      "value": 69,
+      "value_lifecycle": 116,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 36.40633919370009,
+        "nuclear": 62.5286072640814,
+        "oil": 0.0,
+        "solar": 0.10182412793566498,
+        "waste": 0.0,
+        "wind": 0.9632294142828324,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 139.28
+    },
+    {
+      "timestamp": "2026-09-12T23:00:00Z",
+      "value": 71,
+      "value_lifecycle": 112,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 34.216724341972856,
+        "nuclear": 64.83896768087202,
+        "oil": 0.0,
+        "solar": 0.10377911227483522,
+        "waste": 0.0,
+        "wind": 0.8405288648803011,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 136.11
+    },
+    {
+      "timestamp": "2026-09-13T00:00:00Z",
+      "value": 71,
+      "value_lifecycle": 121,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 28.025807976200923,
+        "nuclear": 71.02072945216474,
+        "oil": 0.0,
+        "solar": 0.10303105069501901,
+        "waste": 0.0,
+        "wind": 0.8504315209393128,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 132.38
+    },
+    {
+      "timestamp": "2026-09-13T01:00:00Z",
+      "value": 68,
+      "value_lifecycle": 112,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 26.59275894372941,
+        "nuclear": 72.34396647716305,
+        "oil": 0.0,
+        "solar": 0.10452557021964907,
+        "waste": 0.0,
+        "wind": 0.9587490088878949,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 130.68
+    },
+    {
+      "timestamp": "2026-09-13T02:00:00Z",
+      "value": 68,
+      "value_lifecycle": 112,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 25.77523682104727,
+        "nuclear": 73.18303115568878,
+        "oil": 0.0,
+        "solar": 0.10378308601059502,
+        "waste": 0.0,
+        "wind": 0.9379489372533405,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 130.4
+    },
+    {
+      "timestamp": "2026-09-13T03:00:00Z",
+      "value": 70,
+      "value_lifecycle": 108,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 27.886771970622274,
+        "nuclear": 71.0931786791062,
+        "oil": 0.0,
+        "solar": 0.10264018949306344,
+        "waste": 0.0,
+        "wind": 0.9174091607784525,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 130.68
+    },
+    {
+      "timestamp": "2026-09-13T04:00:00Z",
+      "value": 55,
+      "value_lifecycle": 92,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 32.097400272956676,
+        "nuclear": 67.25401444816329,
+        "oil": 0.0,
+        "solar": 0.10343914003143981,
+        "waste": 0.0,
+        "wind": 0.5451461388485961,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 136.11
+    },
+    {
+      "timestamp": "2026-09-13T05:00:00Z",
+      "value": 72,
+      "value_lifecycle": 106,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 33.43709155511694,
+        "nuclear": 65.65683605293671,
+        "oil": 0.0,
+        "solar": 0.5312040743580652,
+        "waste": 0.0,
+        "wind": 0.3748683175882831,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 136.11
+    },
+    {
+      "timestamp": "2026-09-13T06:00:00Z",
       "value": 73,
       "value_lifecycle": 106,
       "confidence": "medium",
@@ -2128,239 +2319,79 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 37.471326512664746,
-        "nuclear": 61.431166374640256,
+        "hydro": 31.927274807509658,
+        "nuclear": 67.06973631116318,
         "oil": 0.0,
-        "solar": 0.13088900821304603,
+        "solar": 0.5851739244104289,
         "waste": 0.0,
-        "wind": 0.9666181044819556,
+        "wind": 0.41781495691673565,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 143.63
-    },
-    {
-      "timestamp": "2026-09-12T22:00:00Z",
-      "value": 75,
-      "value_lifecycle": 117,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 36.94384847345018,
-        "nuclear": 61.957346256993006,
-        "oil": 0.0,
-        "solar": 0.1299986224999995,
-        "waste": 0.0,
-        "wind": 0.9688066470568119,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 139.45
-    },
-    {
-      "timestamp": "2026-09-12T23:00:00Z",
-      "value": 75,
-      "value_lifecycle": 115,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 34.70165115910558,
-        "nuclear": 64.36238973802155,
-        "oil": 0.0,
-        "solar": 0.13083475952141255,
-        "waste": 0.0,
-        "wind": 0.8051243433514714,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.2
-    },
-    {
-      "timestamp": "2026-09-13T00:00:00Z",
-      "value": 73,
-      "value_lifecycle": 127,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 27.53354856201076,
-        "nuclear": 71.48032781093296,
-        "oil": 0.0,
-        "solar": 0.13261942396662119,
-        "waste": 0.0,
-        "wind": 0.8535042030896466,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 132.86
-    },
-    {
-      "timestamp": "2026-09-13T01:00:00Z",
-      "value": 74,
-      "value_lifecycle": 117,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 25.107465972290328,
-        "nuclear": 73.79862621695293,
-        "oil": 0.0,
-        "solar": 0.13448692885503824,
-        "waste": 0.0,
-        "wind": 0.9594208819017087,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 131.5
-    },
-    {
-      "timestamp": "2026-09-13T02:00:00Z",
-      "value": 74,
-      "value_lifecycle": 117,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 25.092795556834204,
-        "nuclear": 73.83263723279838,
-        "oil": 0.0,
-        "solar": 0.13210916180465734,
-        "waste": 0.0,
-        "wind": 0.9424580485627735,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 130.46
-    },
-    {
-      "timestamp": "2026-09-13T03:00:00Z",
-      "value": 74,
-      "value_lifecycle": 115,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 26.845846229510734,
-        "nuclear": 72.09337605857691,
-        "oil": 0.0,
-        "solar": 0.13176576714292568,
-        "waste": 0.0,
-        "wind": 0.9290119447694302,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 131.5
-    },
-    {
-      "timestamp": "2026-09-13T04:00:00Z",
-      "value": 52,
-      "value_lifecycle": 95,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 30.896559139725863,
-        "nuclear": 68.39762190860542,
-        "oil": 0.0,
-        "solar": 0.1324971237319905,
-        "waste": 0.0,
-        "wind": 0.5733218279367317,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.61
-    },
-    {
-      "timestamp": "2026-09-13T05:00:00Z",
-      "value": 72,
-      "value_lifecycle": 113,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 32.90423566957819,
-        "nuclear": 66.15255727664852,
-        "oil": 0.0,
-        "solar": 0.5639696265478201,
-        "waste": 0.0,
-        "wind": 0.3792374272254646,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 136.61
-    },
-    {
-      "timestamp": "2026-09-13T06:00:00Z",
-      "value": 70,
-      "value_lifecycle": 109,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 31.46207204750272,
-        "nuclear": 67.44988083067742,
-        "oil": 0.0,
-        "solar": 0.647799675105167,
-        "waste": 0.0,
-        "wind": 0.4402474467146927,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 131.98
+      "price_eur_per_mwh": 131.18
     },
     {
       "timestamp": "2026-09-13T07:00:00Z",
-      "value": 51,
-      "value_lifecycle": 95,
+      "value": 56,
+      "value_lifecycle": 93,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 27.443313764402724,
-        "nuclear": 59.69944291685092,
+        "hydro": 27.44593669393802,
+        "nuclear": 60.077395118180554,
         "oil": 0.0,
-        "solar": 12.637599874605117,
+        "solar": 12.251765225300279,
         "waste": 0.0,
-        "wind": 0.21964344414124157,
+        "wind": 0.22490296258114326,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 106.79
+      "price_eur_per_mwh": 106.4
     },
     {
       "timestamp": "2026-09-13T08:00:00Z",
-      "value": 51,
-      "value_lifecycle": 94,
+      "value": 54,
+      "value_lifecycle": 93,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 24.441947543079667,
-        "nuclear": 57.216888489993345,
+        "hydro": 24.394118073044467,
+        "nuclear": 57.16645115838228,
         "oil": 0.0,
-        "solar": 18.121263204017918,
+        "solar": 18.213286624318048,
         "waste": 0.0,
-        "wind": 0.2199007629090737,
+        "wind": 0.22614414425521726,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 53.51
+      "price_eur_per_mwh": 53.37
     },
     {
       "timestamp": "2026-09-13T09:00:00Z",
       "value": 50,
+      "value_lifecycle": 96,
+      "confidence": "medium",
+      "power_breakdown_percent": {
+        "biomass": 0.0,
+        "coal": 0.0,
+        "gas": 0.0,
+        "geothermal": 0.0,
+        "hydro": 22.582453603474544,
+        "nuclear": 54.82972527110278,
+        "oil": 0.0,
+        "solar": 22.34007080853167,
+        "waste": 0.0,
+        "wind": 0.24775031689100807,
+        "unknown": 0.0
+      },
+      "price_eur_per_mwh": 41.2
+    },
+    {
+      "timestamp": "2026-09-13T10:00:00Z",
+      "value": 51,
       "value_lifecycle": 94,
       "confidence": "medium",
       "power_breakdown_percent": {
@@ -2368,75 +2399,55 @@
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 22.103736136158265,
-        "nuclear": 55.06344608687487,
+        "hydro": 20.17501026387,
+        "nuclear": 49.316237961144516,
         "oil": 0.0,
-        "solar": 22.585600464807868,
+        "solar": 30.292655509848878,
         "waste": 0.0,
-        "wind": 0.24721731215899706,
+        "wind": 0.21609626513659455,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 41.25
-    },
-    {
-      "timestamp": "2026-09-13T10:00:00Z",
-      "value": 51,
-      "value_lifecycle": 96,
-      "confidence": "medium",
-      "power_breakdown_percent": {
-        "biomass": 0.0,
-        "coal": 0.0,
-        "gas": 0.0,
-        "geothermal": 0.0,
-        "hydro": 20.179057235083846,
-        "nuclear": 48.61870398189052,
-        "oil": 0.0,
-        "solar": 30.986164832078373,
-        "waste": 0.0,
-        "wind": 0.21607395094726017,
-        "unknown": 0.0
-      },
-      "price_eur_per_mwh": 37.29
+      "price_eur_per_mwh": 38.79
     },
     {
       "timestamp": "2026-09-13T11:00:00Z",
-      "value": 51,
-      "value_lifecycle": 96,
+      "value": 52,
+      "value_lifecycle": 94,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 19.600498868634464,
-        "nuclear": 46.142444165097665,
+        "hydro": 19.339530174517773,
+        "nuclear": 46.72604159663778,
         "oil": 0.0,
-        "solar": 34.01379539933577,
+        "solar": 33.70292342725189,
         "waste": 0.0,
-        "wind": 0.24326156693210238,
+        "wind": 0.2315048015925518,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 34.2
+      "price_eur_per_mwh": 34.18
     },
     {
       "timestamp": "2026-09-13T12:00:00Z",
-      "value": 52,
-      "value_lifecycle": 96,
+      "value": 56,
+      "value_lifecycle": 94,
       "confidence": "medium",
       "power_breakdown_percent": {
         "biomass": 0.0,
         "coal": 0.0,
         "gas": 0.0,
         "geothermal": 0.0,
-        "hydro": 19.73118322949992,
-        "nuclear": 46.45009428486759,
+        "hydro": 19.41657007756532,
+        "nuclear": 46.912176920604644,
         "oil": 0.0,
-        "solar": 33.600974548020325,
+        "solar": 33.45651603434055,
         "waste": 0.0,
-        "wind": 0.21774793761216504,
+        "wind": 0.21473696748948218,
         "unknown": 0.0
       },
-      "price_eur_per_mwh": 34.2
+      "price_eur_per_mwh": 34.18
     }
   ],
   "attribution": [
